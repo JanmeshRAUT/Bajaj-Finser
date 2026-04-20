@@ -3,6 +3,8 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Allow JAR in root for distribution
+!/*.jar
 
 ### STS ###
 .apt_generated
