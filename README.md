@@ -75,11 +75,11 @@ Or use Maven directly:
 ## Configuration
 
 User credentials used in the webhook generation:
-- **Name**: John Doe
-- **Registration Number**: REG12347
-- **Email**: john@example.com
+- **Name**: Janmesh Nitin Raut
+- **Registration Number**: ADT23SOCB1593
+- **Email**: janmeshraut11@gmail.com
 
-The registration number's last two digits (47) are odd, so the application solves Question 1.
+The registration number's last two digits (93) are odd, so the application solves Question 1.
 
 ## Implementation Details
 
