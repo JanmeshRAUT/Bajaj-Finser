@@ -106,22 +106,3 @@ Access Token: eyJhbGciOiJIUzI1NiJ9...
 Solution submitted successfully. Response: {"success":true,"message":"Webhook processed successfully"}
 ```
 
-## Requirements Met
-
-- ✅ Spring Boot application with automatic startup webhook processing
-- ✅ POST request to generate webhook with specified credentials
-- ✅ SQL problem solving based on registration number (odd/even)
-- ✅ JWT token usage in Authorization header for solution submission
-- ✅ RestTemplate for HTTP communication
-- ✅ No controller/endpoint required - purely event-driven
-
-## Notes
-
-- The application uses Spring Boot's built-in RestTemplate for HTTP requests
-- SSL certificate validation is performed for secure connections
-- The application logs all webhook interactions to the console
-- Exception handling ensures graceful degradation if API calls fail
-
-## Contact
-
-For questions about the implementation, refer to the source code comments or the test cases in `WebhookAppApplicationTests.java`.
